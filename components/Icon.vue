@@ -15,12 +15,12 @@ export default defineComponent({
   methods: {
     getSVG(name) {
       let path = OutlineIcons[name];
-      let fill = 'fill="none" stroke="currentColor"';
+      let fill = 'fill="none" stroke="currentColor" viewBox="0 0 24 24"';
       if (this.solid) {
         path = SolidIcons[name];
-        fill = 'fill="currentColor"';
+        fill = 'fill="currentColor" viewBox="0 0 19 19"';
       }
-      const svg = `<svg class="h-6 w-6" ${fill} viewBox="0 0 24 24"  aria-hidden="true"  xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${path}" /></svg>`;
+      const svg = `<svg ${fill} class="w-6 h-6"  aria-hidden="true"  xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${path}" /></svg>`;
       return svg;
     },
   },

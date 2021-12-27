@@ -6,7 +6,7 @@ yarn add -D hero-icons
 
 ```javascript
 //in your nuxt.config.ts
-buildModules: ["hero-icons/nuxt"],
+buildModules: ["nuxt-hero-icons/nuxt"],
 ```
 
 ```javascript

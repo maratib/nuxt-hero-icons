@@ -12,7 +12,7 @@ buildModules: ["nuxt-hero-icons"],
 ```javascript
 //Usage
 <template>
-    <HeroIcon name="annotation">
-    <HeroIcon name="annotation" solid>
+    <HeroIcon name="annotation" />
+    <HeroIcon name="annotation" solid />
 <template>
 ```

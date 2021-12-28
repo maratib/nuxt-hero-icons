@@ -1,6 +1,6 @@
 {
   "name": "nuxt-hero-icons",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "description": "HeroIcon, Nuxt, Nuxt3",
   "author": {
@@ -17,6 +17,13 @@
     "HeroIcon nuxt module",
     "HeroIcons",
     "HeroIcon"
+  ],
+  "files": [
+    "index.js",
+    "outline.js",
+    "solid.js",
+    "README.md",
+    "components"
   ],
   "scripts": {
     "dev": "nuxi dev"
